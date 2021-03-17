@@ -8,6 +8,7 @@
 
 [im05]: ./output_images/color-fit-lines.jpg "color-fit-lines"
 [im06]: ./output_images/result_image.jpg "result image"
+[im07]: ./output_images/curve_equation.jpg "color-fit-lines"
 
 
 ## **The Goal of this Project**
@@ -72,11 +73,25 @@ and, find a offset of camera center between lane
 (when find a offset, using a meter per pixel scale values)
 * curvature example
 ![alt text][im05]
+* curvature equation
+![alt text][im07]
 ### **Drawing the lane result and some information**
 Finaly, Drawing the lane area on original image.
 Drawing the lane curvature data and offset 
 * result
 ![alt text][im06]
+
+
+## **shortcomings**
+
+- Shadow Area is too difficult for filtering
+## **Next Improvements**
+
+- `More `Advanced Lane Line finding
+- study a smoothing and tracking algorithm
+- `challenge_video.mp4` & `harder_challenge_video.mp4`
+
+
 ## How to write a README
 A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 
